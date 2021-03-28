@@ -23,6 +23,11 @@
     color: getColor('main-color');
 }
 
+.header-navigation,
+.contacts {
+    display: flex;
+}
+
 .web {
     color: getColor('secondary-color');
 }

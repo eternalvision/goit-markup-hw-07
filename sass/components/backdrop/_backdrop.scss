@@ -2,14 +2,10 @@
     position: fixed;
     top: 0;
     left: 0;
-
     width: 100%;
     height: 100%;
-
     background-color: getColor('backdrop-bg-col');
-
     transition: opacity 250ms getColor('cubic-main');
-
     opacity: 1;
 }
 

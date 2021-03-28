@@ -1,6 +1,6 @@
-@import './normalize';
-@import './color';
-@import './mixins';
+@import './variables/normalize';
+@import './variables/utils';
+@import './variables/mixins';
 // 
 // HEADER
 @import './components/header/head' ;
@@ -46,9 +46,7 @@ img {
 }
 
 .header,
-.header-navigation__links,
-.header-navigation,
-.contacts {
+.header-navigation__links{
     display: flex;
 }
 
